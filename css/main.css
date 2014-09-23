@@ -22,7 +22,21 @@ html {
     font-size: 1em;
     line-height: 1.4;
     background-color: #931a21;
-    background: #931a21 url('../img/gamera-bg.png') no-repeat 20px 200px;
+    background: #931a21 url('../img/gamera-bg.png') no-repeat 20px 130px;
+    background-attachment: fixed;
+}
+
+p {
+  color: #F3DE25;
+  font-weight: bold;
+  text-align: justify;
+}
+
+blockquote {
+  color: #CCC;
+  font-style: italic;
+  font-size: 1.2em;
+  font-family: "Gamera";
 }
 
 ::-moz-selection {
@@ -84,7 +98,7 @@ textarea {
 }
 
 .content {
-  width: 960px;
+  width: 666px;
   display: block;
   margin: auto;
 }
@@ -98,6 +112,7 @@ h1 {
 h2 {
   font-family: "Gamera";
   font-size: 2em;
+  color: #E38A2B;
 }
 
 /* ==========================================================================
