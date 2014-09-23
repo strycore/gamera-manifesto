@@ -21,13 +21,9 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
+    background-color: #931a21;
+    background: #931a21 url('../img/gamera-bg.png') no-repeat 20px 200px;
 }
-
-/*
- * Remove text-shadow in selection highlight: h5bp.com/i
- * These selection rule sets have to be separate.
- * Customize the background color to match your design.
- */
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -39,9 +35,10 @@ html {
     text-shadow: none;
 }
 
-/*
- * A better looking default horizontal rule
- */
+@font-face {
+  font-family: 'Gamera';
+  src: url('../fonts/gamera.TTF');
+}
 
 hr {
     display: block;
@@ -57,10 +54,7 @@ hr {
  * their containers: h5bp.com/i/440
  */
 
-audio,
-canvas,
-img,
-video {
+audio, canvas, img, video {
     vertical-align: middle;
 }
 
@@ -82,10 +76,6 @@ textarea {
     resize: vertical;
 }
 
-/* ==========================================================================
-   Browse Happy prompt
-   ========================================================================== */
-
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
@@ -93,25 +83,22 @@ textarea {
     padding: 0.2em 0;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+.content {
+  width: 960px;
+  display: block;
+  margin: auto;
+}
 
+h1 {
+  font-family: "Gamera";
+  text-align: center;
+  font-size: 4em;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+h2 {
+  font-family: "Gamera";
+  font-size: 2em;
+}
 
 /* ==========================================================================
    Helper classes
